@@ -11,3 +11,21 @@ if(isset($_GET['id'])){
     }
 }
 ?>
+<style>
+    #uni_modal .modal-footer{
+        display:none !important;
+    }
+</style>
+<div class="container-fluid">
+    <dl>
+        <dt class="text-muted">Room Type</dt>
+        <dd class='pl-4 fs-4 fw-bold'><?= isset($room) ? $room : '' ?></dd>
+        <dt class="text-muted">Description</dt>
+        <dd class='pl-4'>
+            <p class=""><small><?= isset($description) ? html_entity_decode($description) : '' ?></small></p>
+        </dd>
+    </dl>
+    <div class="col-12 text-right">
+        <button class="btn btn-flat btn-sm btn-dark" type="button" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+    </div>
+</div>
