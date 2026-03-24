@@ -1,16 +1,4 @@
-/**
- * @fileoverview
- * Complete Scanner build on top of {@link Html5Qrcode}.
- * - Decode QR Code using web cam or smartphone camera
- * 
- * @author mebjas <minhazav@gmail.com>
- * 
- * The word "QR Code" is registered trademark of DENSO WAVE INCORPORATED
- * http://www.denso-wave.com/qrcode/faqpatent-e.html
- * 
- * Note: ECMA Script is not supported by all browsers. Use minified/html5-qrcode.min.js for better
- * browser support. Alternatively the transpiled code lives in transpiled/html5-qrcode.js
- */
+
 class Html5QrcodeScanner {
 
     static SCAN_TYPE_CAMERA = "SCAN_TYPE_CAMERA";
